@@ -16,7 +16,7 @@ set the following environment variables
 flask db init
 flask db migrate
 flask db upgrade
-'''
+```
 
 ## Start server
 ```
