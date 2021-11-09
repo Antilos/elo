@@ -1,0 +1,18 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+  Kachna ELO
+{% endblock %}
+
+{% block content %}
+
+<!--Main Website Body-->
+<!--Flashed Messages-->
+{% for message in get_flashed_messages() %}
+      <div class="flash">{{ message }}</div>
+{% endfor %}
+
+<!--Content Proper-->
+{% block app_content %}{% endblock %}
+
+{% endblock %}
